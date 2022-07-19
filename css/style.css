@@ -998,7 +998,7 @@ body.open {
 
 .plan-and-man__image {
   flex: 1 10 30%;
-  width: 30%;
+  width: 100%;
   max-width: 653px;
   margin-left: 40px;
   filter: drop-shadow(0px 15px 20px rgba(156, 156, 156, 0.4));
@@ -1499,10 +1499,8 @@ body.open {
   margin-left: 62px;
 }
 
-.no-webp .get-started {
-  background: url("../img/background.png"); }
-
 .get-started {
+  background: url("../img/background.png");
   background-size: cover;
   background-position: center;
   padding: 91px 0;
@@ -1966,4 +1964,4 @@ body.open {
   }
 }
 
-.wepb .get-started { background: url(../img/background.webp); }
+.webp .get-started { background: url(../img/background.webp); }
